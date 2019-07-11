@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Timeline Page" max_length="40" name="cmn_timeline_page" read_roles="admin" type="collection">
+        <element default="global" label="Domain" max_length="32" name="sys_domain" type="domain_id"/>
+        <index name="index">
+            <element name="sys_domain"/>
+        </index>
+    </element>
+</database>
